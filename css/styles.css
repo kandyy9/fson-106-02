@@ -1,5 +1,48 @@
+:root {
+    --black: #111;
+    --orange: #fd9222;
+    --violet: #1e1823;
+    --beige: #fcf1e0;
+    --light: #fafafa;
+    --gray: #4c4c4c;
+    --white: #fff;
+    --marker-body: #4c4c4c;
+    --marker-border: #eceded;
+    --font-family: "Montserrat", sans-serif;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
+}
+
+h1,h2,h3,p{
+    margin: 0;
+}
+
+button{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1168px;
+    padding: 0 16px;
+    margin: 0 auto;
 }
 
 
@@ -15,3 +58,80 @@ body {
 .benefits-text {
 }
 /* benefits / */
+
+
+/* chocolate is loved */
+.chocolate-loved{
+    padding: 60px 0 120px 0 ;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 50px;
+}
+
+.title-separation{
+    color:var(--orange) ;
+}
+
+.chocolate-list {
+    display: flex;
+    gap: 28px;
+    margin-bottom: 50px;
+}
+
+.chocolate-item {
+border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+    padding: 0 24px 24px 24px;
+    width: calc((100% - 28px * 2) / 3);
+    box-shadow: 0 10px 100px 0 rgba(17, 17, 17, 0.1);
+    background: var(--white);
+}
+
+.chocolate-image {
+    margin: 0 auto;
+    margin-bottom: 18px;
+
+}
+
+.chocolate-subtitle {
+    margin-bottom: 24px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 133%;
+        text-align: center;
+        color: var(--black);
+}
+
+.chocolate-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.chocolate-button{
+    border: 1px solid var(--orange);
+        border-radius: 100px;
+        padding: 14px 40px;
+        min-width: 222px;
+        height: 50px;
+        margin: 0 auto;
+        font-family: var(--font-family);
+            font-weight: 600;
+            font-size: 18px;
+            color: var(--black);
+        
+}
+
+
+/* chocolate is loved */
